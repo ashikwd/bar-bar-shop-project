@@ -1,0 +1,538 @@
+/*font-family: 'Work Sans', sans-serif;*/
+/*font-family: 'Karla', sans-serif;*/
+/*font-family: 'Teko', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+	background:#fff;
+}
+.container {
+    max-width: 1465px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+}
+
+/*------------------------------------------------------------------topbar-section----------------------------------------------------*/
+.topbar-section {
+	background:#572500;
+}
+.topbar-section .row .address a , p {
+	font-size:12px;
+	font-weight:500;
+	line-height:16px;
+	font-family: 'Work Sans', sans-serif;
+}
+.topbar-section .socail-icon li a i:hover {
+	color:red;
+	background:lime;
+	transition:.5s;
+	
+}
+/*=====================================================================header-section=========================================================*/
+
+
+.collapse  {
+	justify-content: space-between;
+}
+.hedar-section  .nav-item {
+	padding-right:10px;
+}
+.hedar-section .navbar-nav {
+	list-style: none;
+	text-transform:uppercase;
+	display:flex;
+	text-align:center;
+	margin:0 auto;
+}
+
+
+.hedar-section .navbar-nav  .nav-item .nav-link {
+	text-decoration:none;
+	color:#4c721f;
+    font-family: 'Karla', sans-serif;
+	font-size:18px;
+	line-height:24px;
+	font-weight:400;
+	
+}
+.hedar-section .navbar-nav  .color {
+	border:2px solid #572500;
+	text-decoration:none;
+	color:#4c721f;
+    font-family: 'Karla', sans-serif;
+	font-size:18px;
+	line-height:24px;
+	font-weight:400;
+	padding:8px 16px;
+	
+}
+.hedar-section .navbar-nav   .color:hover {
+	background:#572500;
+	color:#4c721f;
+	
+}
+.hedar-section  .navbar-nav  .nav-link:hover {
+	color:#572500;
+}
+.hedar-section .navbar-nav  .nav-item .active {
+	color:#572500;
+}
+.hedar-section  .src {
+	border-bottom:2px dashed #707070;
+	width:100%;
+}
+.hedar-section .src  .search {
+	color:#4c721f;
+	padding-left:10px;
+	border:none;
+	width:100%;
+	outline:none;
+	font-size:10px;
+	font-weight:500;
+	line-height:16px;
+	font-family: 'Work Sans', sans-serif;
+	margin-right:35px;
+	
+} 
+.hedar-section .bar {
+	border:1px solid #572500;
+	background:transparent;
+	margin-left:10px;
+	color:#572500;
+	padding:5px 10px;
+	border-radius: 20%;
+	
+}
+
+/*===========================================================banner-section=====================================================*/
+.first-crasol {
+  background: url(../img/banner-pic.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+  width:100%;
+  padding: 85px 0 315px 0;
+  position:relative;
+  z-index:1;
+}
+.first-crasol::after{
+	
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #000;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    opacity: .6;
+    background-size: cover;
+    background-position: center;
+	z-index:-1;
+  
+	
+}
+.banner-section .carousel-inner .first-crasol .content h1 {
+	font-size: 60px;
+    color: #fff;
+    line-height: 68px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+   max-width:822px;
+   margin:0 auto;
+   text-transform:uppercase;
+
+}
+.banner-section .carousel-inner .first-crasol .content .button button {
+	background:#4c721f;
+	color:#fff;
+	font-size: 25px;
+    line-height: 42px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+	padding:12px 26px;
+	border:none;
+	transition:.5s;
+	
+	
+}
+.banner-section .carousel-inner .first-crasol .button{
+	padding-top:30px;
+}
+.banner-section .carousel-inner .first-crasol .content .button button:hover{
+	background:#572500;
+	
+	
+}
+.banner-section .first-carousel-indicators {
+	bottom:35px;
+}
+
+.banner-section .first-carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    width: 9px;
+    height: 0px;
+    padding: 0;
+    background-clip: border-box;
+    border: 0;
+    border-top: 3px solid #fff;
+    border-bottom: 6px solid #fff;
+}
+.banner-section .carousel-control-next, .carousel-control-prev {
+     bottom: -26px;
+    width: 2%;
+    display: flex;
+
+}
+/*======================================================video-section=================================================================*/
+.card-section {
+	background:#572500;
+}
+.card-section  h2 {
+	font-size: 75px;
+    color: #fff;
+    line-height: 104px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+	letter-spacing: 10px;
+}
+.card-section  p {
+	font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+.card-section  .button button {
+	background:#4c721f;
+	color:#fff;
+	font-size: 22px;
+    line-height: 20px;
+   font-family: 'Karla', sans-serif;
+    font-weight: 700;
+	padding:20px 30px;
+	border:none;
+	transition:.5s;
+	
+	
+}
+.card-section  .button button:hover{
+	background:lime;
+	color:#572500;
+}
+.card-section  video {
+    height: 574px;
+    object-fit: cover;
+}
+/*================================================================our-service-section=========================================*/
+.our-servixe-section {
+	background:#572500;
+}
+.our-servixe-section .heading1 h2 {
+	font-size: 75px;
+    color: #fff;
+    line-height: 104px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+	letter-spacing: 10px;
+}
+
+.row-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap:20px;
+}
+.our-servixe-section .grid-item {
+  position: relative;
+  transition: 1s;
+}
+.our-servixe-section .grid-item .imag_div {
+  position: relative;
+}
+.our-servixe-section .grid-item .imag_div img {
+  width: 100%;
+}
+.our-servixe-section .grid-item .imag_div .our-service-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.our-servixe-section .grid-item .imag_div .our-service-content h3 {
+	font-size: 22px;
+    color: #000;
+    line-height: 20px;
+    font-family: 'Karla', sans-serif;
+	text-transform:uppercase;
+	font-weight:700;
+	padding:10px 0 0 0 ;
+	text-align:center;
+}
+
+.our-servixe-section .grid-item .card_content {
+  position: absolute;
+  top: 0;
+  background-color: #572500;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: rotate(180deg);
+  transition:1s;
+box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.81);
+-webkit-box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.81);
+-moz-box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.81);
+}
+.our-servixe-section .grid-item .card_content p {
+   font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    max-width: 335px;
+    margin: 0 auto;
+    align-items: center;
+  transform: rotatex(180deg);
+}
+.our-servixe-section .grid-item:hover .card_content {
+  opacity: 1;
+  transition: 1s;
+}
+.our-servixe-section .grid-item:hover{
+  transform: rotatey(180deg);
+  transition: 1s;
+}
+
+/*-------------------------------------------------------------------------what-section------------------------------------------------------*/
+.what-section {
+    background: #572500;
+    border-bottom: 2px dashed blue;
+    padding-bottom: 20px;
+	position:relative;
+}
+ .what-section .heading h3 {
+	 font-size: 75px;
+    color: #fff;
+    line-height: 104px;
+     font-family: 'Teko', sans-serif;
+    font-weight: 500;
+	letter-spacing: 20px;
+    word-spacing: 20px;
+
+ }
+.what-section .content p {
+	font-size: 14px;
+    color: #fff;
+    line-height: 22px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+	padding-top:20px;
+	max-width:400px;
+    margin: 0 auto;
+
+}
+.what-section .content h2 {
+	font-size: 22px;
+    color: #fff;
+    line-height: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+	padding-top:20px;
+}
+.what-section .content h5 {
+	font-size: 22px;
+    color: #fff;
+    line-height: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+	padding-top:15px;
+}
+.what-section .carousel-control-next-two, .carousel-control-prev-two {
+    bottom:0px; 
+    width: 2%;
+    display: flex;
+    
+}
+.what-section .carousel-control-next-two, .carousel-control-prev-two{
+    top: 35%;
+    bottom: 0;
+    align-items: center;
+    justify-content: end;
+    width: 2%;
+}
+.what-section .carousel-control-next-two {
+    right: 1px;
+} 
+/*=========================================================================our-product-section============================================*/
+	.our-product {
+	 background: #572500;
+	}
+	.our-product .heading1 h2 {
+	font-size: 75px;
+    color: #fff;
+    line-height: 104px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+	letter-spacing: 10px;
+}
+/* =====================================================sign_up_section================================================================ */
+.sign_up_section{
+    background: #572500;
+    padding-bottom: 99px;
+}
+.sign_up_section .sign_up_row .one .sign_content .sign_heading h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 75px;
+    line-height: 104px;
+    font-weight: 500;
+    letter-spacing: 15px;
+    word-spacing: 15px;
+    color: #000;
+	padding-left:50px;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar{
+    width: 59%;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper{
+    width: 157%;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper a {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    padding-right: 22px;
+    color: #000;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper form{
+    width: 60%;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper .d-flex .form-control {
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    background: #987963;
+    box-shadow: none;
+}
+
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper input::placeholder{
+    color: white;
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper .d-flex .input_value{
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    width: 69%;
+    background: #4C721F;
+    color: white;
+    border: none;
+	text-align: start;
+    padding-left: 10px;
+
+}
+.sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper{
+    padding-bottom: 80px;
+}
+
+
+
+/*===============================================footer-section========================================*/
+.footer-section  {
+  background: url(../img/footer-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+  width:100%;
+ padding:101px 0;
+  position:relative;
+  z-index:1;
+}
+.footer-section::after{
+	
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #000;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    opacity: .7;
+    background-size: cover;
+    background-position: center;
+	z-index:-1;
+  
+	
+}
+
+.footer-section .row .content {
+	text-transform:uppercase;
+}
+.footer-section .row .content h3 {
+	color:#fff;
+	font-size: 22px;
+    line-height: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+.footer-section .row .content  ul {
+	list-style:none;
+	padding-top:10px;
+}
+.footer-section .row .content  ul li {
+	padding-top:5px;
+}
+.footer-section .row .content  ul a {
+	text-decoration:none;
+	color:#fff;
+	font-size: 14px;
+    line-height: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+.footer-section .row .content  ul a:hover{
+	color:Lime;
+	transition:.4s;
+}
+.footer-section .row .ashik {
+	border:1px solid #fff;
+	padding: 20px 20px;
+	margin-top: -20px;
+}
+.footer-section .row .ashik  .date {
+	display: flex;
+    justify-content: space-between;
+}
+/*=========================================================socet-section=================================================*/
+.socet-section {
+	background:#000;
+}
+.socet-section .soc {
+	text-decoration:none;
+	color:#fff;
+	font-size: 10px;
+    line-height: 24px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+.socet-section .socail-icon li a i:hover {
+	color:red;
+	background:lime;
+	transition:.5s;
+	
+}
+

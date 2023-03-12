@@ -1,0 +1,224 @@
+@media only screen and (max-width: 1300px) {
+    .hedar-section .navbar-nav  .nav-item .nav-link {
+        font-size: 12px;
+        line-height: 20px;
+       
+    }
+    .hedar-section .src  .search {
+        margin-right: -24px;
+    }
+    .hedar-section .navbar-nav  .color {
+    
+        font-size: 12px;
+        line-height: 18px;
+        padding:5px 10px;
+    }
+
+ }
+ @media only screen and (max-width: 1200px) {
+    .footer-section .col-md-3 {
+        width:50%;
+    }
+    .footer-section .row .content h3 {
+        margin-top:30px;
+    }
+    .footer-section {
+        padding: 50px 0;
+    }
+    .footer-section .row .ashik {
+        border: 1px solid #fff;
+        padding: 0px 20px;
+        margin-top: 17px;
+    }
+     
+    
+
+ }
+
+ @media only screen and (max-width: 1100px) {
+   .hedar-section .src  .search {
+    margin-right: -40px;
+}
+
+ }
+
+ @media only screen and (max-width: 992px) {
+    .col-md-8 {
+        flex: 0 0 auto;
+         width: 100%; 
+    }
+    .col-md-4 {
+       width:100%
+       
+    }
+    .banner-section .carousel-control-next, .carousel-control-prev {
+        width: 4%;
+    }
+    .row-one {
+        grid-template-columns: 1fr 1fr;
+    }
+    .what-section .heading h3 {
+        font-size: 52px;
+        line-height: 58px;
+        letter-spacing: 10px;
+        word-spacing: 10px;
+    }
+    .what-section .carousel-control-next-two, .carousel-control-prev-two {
+        width: 4%;
+    }
+    .what-section .icon {
+        padding-top:20px;
+    }
+    .sign_up_section .sign_up_row .one .sign_content .sign_heading h2 {
+        font-size: 62px;
+        line-height: 90px;
+        letter-spacing: 10px;
+        word-spacing: 10px;
+    }
+    .sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper form {
+         width: 100%; 
+         padding:10px 0;
+         flex-direction:column;
+    }
+    .sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper {
+        width: 100%; 
+        flex-direction:column;
+    }
+    .sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper .d-flex .input_value {
+        margin:10px 0;
+        padding:5px 5px;
+        width:100%;
+    }
+    .sign_up_section .sign_up_row .one .sign_content .navbar .navbar_wrapper {
+        padding-bottom: 1px;
+    }
+    .sign_up_section {
+        padding-bottom: 50px;
+    }
+    .hedar-section .navbar-nav  .nav-item .nav-link {
+        font-size: 18px;
+        line-height: 24px;
+       
+    }
+    .hedar-section .src  .search {
+        margin-right: 35px;
+    }
+ }
+
+ 
+ @media only screen and (max-width:768px) {
+    .first-crasol {
+        padding: 70px 0 250px 0;
+    }
+    .banner-section .carousel-inner .first-crasol .content h1 {
+        font-size: 42px;
+        line-height: 48px;
+        max-width: 580px;
+    }
+    .banner-section .carousel-inner .first-crasol .content .button button {
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'Karla', sans-serif;
+        padding: 16px 26px;
+    }
+    .card-section  video {
+        object-fit: cover;
+        height: 100%;
+    }
+    .card-section  h2 {
+        font-size: 52px;
+        line-height: 58px;
+        padding-top: 30px;
+    }
+   .what-section .col-md-4 {
+    flex-direction: column;
+   }
+    .sign_up_section .sign_up_row .one .sign_content .sign_heading h2 {
+        font-size: 38px;
+        line-height: 42px;
+        letter-spacing: 5px;
+        word-spacing: 3px;
+    }
+    .footer-section .row {
+        flex-direction: column;
+    }
+ }
+
+ @media only screen and (max-width:576px) {
+    .topbar-section .col-md-8 .address {
+        flex-direction: column;
+    }
+    .col-md-4 {
+        width: 100%;
+        justify-content: start;
+        display: flex;
+    }
+    .topbar-section  .col-md-4 .content ul {
+        display: flex;
+    }
+    .banner-section .carousel-inner .first-crasol .content h1 {
+        font-size: 32px;
+        line-height: 40px;
+        max-width: 417px;
+    }
+    .banner-section .carousel-control-next, .carousel-control-prev {
+        width: 6%;
+    }
+    .first-crasol {
+        padding: 42px 0 114px 0;
+    }
+    .our-servixe-section .heading1 h2 {
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .row-one {
+        grid-template-columns: 1fr;
+    }
+    .what-section .heading h3 {
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 6px;
+        word-spacing: 6px;
+    }
+    .sign_up_section .sign_up_row .one .sign_content .sign_heading h2 {
+        font-size: 44px;
+        line-height: 50px;
+        letter-spacing: 4px;
+        word-spacing: 4px;
+    }
+ }
+ 
+ @media only screen and (max-width:475px){
+ .our-servixe-section .heading1 h2 {
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: 6px;
+}
+.what-section .heading h3 {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+.banner-section .carousel-inner .first-crasol .content h1 {
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 348px;
+}
+.our-product .heading1 h2 {
+    font-size: 36px; 
+    line-height: 48px;
+    letter-spacing: 6px;
+  
+}
+.sign_up_section .sign_up_row .one .sign_content .sign_heading h2 {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: left;
+}
+.footer-section .row .content h3 {
+    font-size: 20px;
+}
+ }
